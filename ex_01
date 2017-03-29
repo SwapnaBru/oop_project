@@ -1,0 +1,27 @@
+class BankAccount
+attr_reader :deposit
+attr_writer :balance, :interest_rate
+attr_accessor :balance, :interest_rate, :deposit
+
+def initialize(balance, interest_rate, deposit)
+  @balance = balance
+  @interest_rate = interest_rate
+  @deposit = deposit
+  @amount = amount
+end
+
+
+puts "Amount to be withdrawn"
+amount = gets.chomp!.to_i
+
+def withdraw
+  balance = 800
+  remaining = "#{ "balance" - "amount" }"
+end
+
+end
+
+BankAccount = balance.new
+
+# balance.new { "balance" } - { "amount" }
+# balance.withdraw  # => new balance
